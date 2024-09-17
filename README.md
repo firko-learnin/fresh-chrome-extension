@@ -25,7 +25,7 @@ It provides the following functionality:
 3. When the button in the popup is clicked, it injects a script into the active tab that:
    - Adds an orange div at the top of the page with the message "DOM modified!"
    - Logs the message "Action executed from popup!" to the DevTools console (F12)
-
+   
 ## How to install
 
 1. Clone or download this repository to your local machine.

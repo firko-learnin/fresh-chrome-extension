@@ -45,5 +45,9 @@
   "host_permissions": [
     "https://*/*",
     "http://*/*"
-  ]
+  ],
+  "web_accessible_resources": [{
+    "resources": ["assets/images/mrWhiskers.jpg"],
+    "matches": ["<all_urls>"]
+  }]
 }

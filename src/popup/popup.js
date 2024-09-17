@@ -18,3 +18,6 @@ function modifyDOM() {
   document.body.insertAdjacentElement('afterbegin', div);
   console.log('Action executed from popup!');
 }
+
+// in order to use assets at runtime you will need to add them to web_accessible_resources and access them like this:
+// chrome.runtime.getURL('assets/images/mrWhiskers.jpg');
